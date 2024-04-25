@@ -1,0 +1,26 @@
+[
+    {
+        "Header": "Database Management",
+        "Body": "The OR operator displays a record if ANY conditions listed are true. The AND operator displays a record if ALL of the conditions listed are true.",
+        "CorrectAnswer": true,
+        "ExamId": 1
+    },
+    {
+        "Header": "SQL Syntax",
+        "Body": "In SQL, the SELECT statement is used to update data in a database.",
+        "CorrectAnswer": false,
+        "ExamId": 1
+    },
+    {
+        "Header": "SQL Functions",
+        "Body": "The COUNT() function in SQL is used to return the number of rows that match a specified condition.",
+        "CorrectAnswer": true,
+        "ExamId": 1
+    },
+    {
+        "Header": "Database Concepts",
+        "Body": "SQL stands for Structured Question Language.",
+        "CorrectAnswer": false,
+        "ExamId": 1
+    }
+]

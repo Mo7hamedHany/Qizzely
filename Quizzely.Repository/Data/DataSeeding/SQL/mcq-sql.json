@@ -1,0 +1,56 @@
+[
+    {
+        "Header": "Database Management",
+        "Body": "What does SQL stand for?",
+        "Option1": "Structured Query Language",
+        "Option2": "Structured Question Language",
+        "Option3": "Strong Query Language",
+        "CorrectAnswer": 1,
+        "ExamId": 1
+    },
+    {
+        "Header": "Database Concepts",
+        "Body": "Which of the following is not a SQL Server data type?",
+        "Option1": "INT",
+        "Option2": "CHAR",
+        "Option3": "DECIMAL",
+        "CorrectAnswer": 2,
+        "ExamId": 1
+    },
+    {
+        "Header": "SQL Server Functions",
+        "Body": "Which SQL Server function is used to return the current database system date and time?",
+        "Option1": "NOW()",
+        "Option2": "GETDATE()",
+        "Option3": "SYSDATE()",
+        "CorrectAnswer": 2,
+        "ExamId": 1
+    },
+    {
+        "Header": "Database Administration",
+        "Body": "Which SQL Server statement is used to modify data in a database?",
+        "Option1": "INSERT INTO",
+        "Option2": "SELECT",
+        "Option3": "UPDATE",
+        "CorrectAnswer": 3,
+        "ExamId": 1
+    },
+    {
+        "Header": "SQL Server Concepts",
+        "Body": "Which of the following is a primary key constraint in SQL Server?",
+        "Option1": "UNIQUE",
+        "Option2": "FOREIGN KEY",
+        "Option3": "PRIMARY KEY",
+        "CorrectAnswer": 3,
+        "ExamId": 1
+    },
+    {
+        "Header": "SQL Server Development",
+        "Body": "Which SQL Server clause is used to filter the result set?",
+        "Option1": "GROUP BY",
+        "Option2": "HAVING",
+        "Option3": "WHERE",
+        "CorrectAnswer": 3,
+        "ExamId": 1
+    }
+]
