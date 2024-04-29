@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Quizzely.Core.DataTransferObjects;
 using Quizzely.Core.Interfaces.Services;
 
 namespace Qizzely.API.Controllers
@@ -9,10 +10,12 @@ namespace Qizzely.API.Controllers
     public class ExamController : ControllerBase
     {
         private readonly IExamService _examService;
+        private readonly IEvaluationService _evaluationService;
 
-        public ExamController(IExamService examService)
+        public ExamController(IExamService examService, IEvaluationService evaluationService)
         {
             _examService = examService;
+            _evaluationService = evaluationService;
         }
 
         [HttpGet]
@@ -49,6 +52,12 @@ namespace Qizzely.API.Controllers
         public async Task<ActionResult> GetSingleTofByID(int id)
         {
             return Ok(await _examService.GetSingleTofQuestionById(id));
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> ExamEvaluation([FromBody] AnswerDto answer,int examId)
+        {
+            return Ok(await _evaluationService.ExamEvaluation(answer,examId));
         }
     }
 }

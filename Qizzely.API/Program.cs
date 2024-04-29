@@ -36,6 +36,8 @@ namespace Qizzely.API
 
             builder.Services.AddScoped<IExamService, ExamService>();
 
+            builder.Services.AddScoped<IEvaluationService, EvaluationService>();
+
             builder.Services.AddScoped<ITokenService, TokenService>();
 
             builder.Services.AddScoped<IUserService, UserService>();
